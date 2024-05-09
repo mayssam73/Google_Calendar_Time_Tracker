@@ -3,6 +3,7 @@ import { Roboto } from 'next/font/google';
 export default function Home() {
   return (
     <main>
+      <title>Google Calendar Time Tracker</title>
       <div className="flex">
         <div className="flex-auto w-[25%]">
           <div>Google Calendar</div>
