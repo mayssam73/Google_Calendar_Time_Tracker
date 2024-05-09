@@ -1,9 +1,14 @@
 import { Roboto } from 'next/font/google';
 
+function Chart() {
+  return (
+    <div>Hello again</div>
+  );
+}
+
 export default function Home() {
   return (
     <main>
-      <title>Google Calendar Time Tracker</title>
       <div className="flex">
         <div className="flex-auto w-[25%]">
           <div>Google Calendar</div>
@@ -14,6 +19,7 @@ export default function Home() {
           <hr className="h-px my-[10%] bg-gray-200 border-0 darkBg-gray-700"></hr>
           <div className="flex-auto w-14">
             <div>Hi</div>
+            <Chart />
           </div>
         </div>
       </div>
